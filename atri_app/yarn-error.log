@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/shachipriya/.atri/webapp-builder-macos.v0.0.90 /snapshot/webapp-builder/node_modules/yarn/bin/yarn.js install
+
+PATH: 
+  /Users/shachipriya/.local/share/virtualenvs/atri-2b0mliof/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Users/shachipriya/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:$/usr/local/mongodb/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/Users/shachipriya/Library/Caches/Yarn/v6/npm-prettier-2.8.4-34dd2595629bfbb79d344ac4a91ff948694463c3-integrity/node_modules/prettier/.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "atri-react-app-template",
+    "version": "0.0.0",
+    "private": "true",
+    "scripts": {
+      "buildApp": "atri-react-app-build-app",
+      "buildAppNode": "atri-react-app-build-server",
+      "buildServer": "cd server && tsc",
+      "build": "yarn run buildApp && yarn run buildAppNode",
+      "devServer": "node dist/server/index.js --dev",
+      "server": "node dist/server/index.js",
+      "dev": "atri-react-app-dev-server"
+    },
+    "dependencies": {
+      "@atrilabs/app-scripts": "^0.0.90",
+      "@atrilabs/core": "^0.0.90",
+      "chokidar": "^3.5.3",
+      "http-proxy-middleware": "^2.0.6",
+      "react": "18.0.0",
+      "react-dom": "18.0.0",
+      "react-router-dom": "^6.3.0",
+      "ws": "^8.8.0",
+      "zustand": "^4.0.0-rc.1",
+      "@atrilabs/react-component-manifests": "^0.0.90"
+    },
+    "devDependencies": {
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-react-app": "^7.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
